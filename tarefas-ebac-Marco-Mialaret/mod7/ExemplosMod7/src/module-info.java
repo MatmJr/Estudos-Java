@@ -1,0 +1,2 @@
+module ExemplosMod7 {
+}
