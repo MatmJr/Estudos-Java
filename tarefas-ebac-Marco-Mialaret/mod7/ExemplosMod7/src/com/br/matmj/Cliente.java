@@ -1,11 +1,11 @@
 package com.br.matmj;
 
 public class Cliente {
-	
+
 	private int codigo;
-	
+
 	private String nome;
-	
+
 	private String endereco;
 
 	public int getCodigo() {
@@ -31,19 +31,20 @@ public class Cliente {
 	public void setEndereco(String endereco) {
 		this.endereco = endereco;
 	}
-	
+
 	public void cadastrarEndereco(String endereco) {
 		setEndereco(endereco);
 	}
-	
-	public void imprimirEndereco(){
+
+	public void imprimirEndereco() {
 		System.out.println(this.endereco);
 	}
-	
+
 	public String retornarNomeCliente() {
-		return "Endereço do Cliente: ";
+		return "EndereÃ§o do Cliente: ";
 	}
+
 	public int dinheiroNaCarteira() {
-		return R$ 300;
+		return 300;
 	}
 }
